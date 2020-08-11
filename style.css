@@ -1,9 +1,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Average Sans';
+    
   }
-  
+
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpeg");
     height: 50%;
@@ -21,3 +22,45 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
   }
+
+  .image {
+    display: block;
+    width: 300px;
+    height: 330px;
+    margin-top: 5pc;
+    margin-left: 83%;
+    border-radius: 10%;
+  }
+
+#myHeader {
+  font-size: 12pt;
+  color: white;
+  margin-left: 300px;
+ }
+
+.progress {
+  max-width: 50%;
+  margin-left: 30em;
+  margin-bottom: 30px;
+  margin-top: -5px;
+}
+
+#mySkills {
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
+
+hr.line {
+  border: 2px solid blue;
+  margin-left: 40%;
+  width: 20%;
+  border-radius: 5px;
+}
